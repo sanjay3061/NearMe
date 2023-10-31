@@ -1,4 +1,6 @@
 # Ex04 Places Around Me
+## DATE: 31.10.23
+
 ## AIM
 To develop a website to display details about the places around my house.
 
@@ -24,127 +26,109 @@ Execute the programs and publish them.
 
 ## CODE
 ```
-map.html
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>My City</title>
+    <title>HOME</title>
 </head>
-<body>
-<h1 align="center">
-<font color="red"><b>Ariyalur - Cement City</b></font>
-</h1>
-<h3 align="center">
-<font color="blue"><b>vijayaraj v (22001903)</b></font>
-</h3>
-<center>
-<img src="/static/images/map2.png" usemap="#MyCity" height="420" width="1100">
-<map name="MyCity">
-<area shape="circle" coords="190,50,20" href="/static/html/ghs.html" title="Govt. Higher Secondary School">
-<area shape="rectangle" coords="230,30,260,60" href="/static/html/rto.html" title="RTO Office">
-<area shape="circle" coords="400,350,50" href="/static/html/vk.html" title="Washerman's Lake">
-<area shape="circle" coords="400,200,75" href="/static/html/bus.html" title="Hi-Tech Bus Stand">
-<area shape="rectangle" coords="490,150,870,320" href="/static/html/park.html" title="Eco-Park">
+<img src="Screenshot 2023-10-23 203740.png" usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="Bus stand" title="Bus stand" href="bus stand.html" coords="1597,391,50" shape="circle">
+    <area target="" alt="DMAX" title="DMAX" href="dmax.html" coords="1450,618,50" shape="circle">
+    <area target="" alt="Ground" title="Ground" href="playground.html" coords="1071,728,93" shape="circle">
+    <area target="" alt="school" title="school" href="school.html" coords="1107,450,67" shape="circle">
+    <area target="" alt="Marraiage hall" title="Marraiage Hall" href="Marraige_Hall.html" coords="1023,328,42" shape="circle">
 </map>
-</center>
 </body>
 </html>
-
-
-
-
-bus.html
+```
+```html
+BUS STAND.html
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Bus Stand</title>
+<title>BUS STAND</title>
 </head>
-<body bgcolor="cyan">
+<body bgcolor="red">
 <h1 align="center">
-<font color="red"><b>Ariyalur - Cement City</b></font>
+<font color="blue"><b>DHARMAPURI</b></font>
 </h1>
 <h3 align="center">
-<font color="blue"><b>Hi-Tech Bus Stand</b></font>
+<font color="green"><b>BUS STAND</b></font>
 </h3>
-<hr size="3" color="red">
+<hr size="3" color="pink">
 <p align="justify">
-<font face="Courier New" size="5">
+<font face="Arial" size="5">
 <b>
-Ariyalur district is an administrative district, one of the 38 districts in the 
-state of Tamil Nadu in India. The district headquarters is located at Ariyalur. 
-The district encompasses an area of 1,949.31 km². Gangaikonda Cholapuram, 
-built by King Rajendra Cholan of Chola Empire, is a UNESCO World Heritage site 
-situated in this district. The district is also known for its rich prehistoric 
-fossils. Many fossils of gigantic molluscs and jawed fishes, at least one 
-fossilized dinosaur egg, and several fragmentary fossils of sauropod and theropod 
-dinosaurs have been discovered here. An on-site museum is being set up at 
-Keelapazhur to preserve and conserve fossils. Ariyalur is noted for its cement
- industries and Jayankondam has huge reserves of lignite.
+One of most friendly busstand ever seen,
+And all kind of bus you can get here include air buses and also budget friendly buses also.
+The time office in busstand the staff are very friendly and answer very gently to the passenger.
+And the main thing is to hat's off to the busstand police they have doing there duty well✨.There are a lot of buses from Krishnagiri and Hogenakal. We used the stand for coimbatore and Hogenakal. It had good connectivity. It's generally crowded and theft is normal so be careful.. there is washroom at the end. Small eateries are good. The guy opposite to entrance sell chips and it's good
 </b>
 </font>
 </p>
 </body>
 </html>
-
-park.html
+```
+```html
+Theater.html
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Eco-Park</title>
+<title>DMAX Theater</title>
 </head>
 <body bgcolor="yellow">
 <h1 align="center">
-<font color="red"><b>Ariyalur - Cement City</b></font>
+<font color="red"><b>Dharmapuri</b></font>
 </h1>
 <h3 align="center">
-<font color="blue"><b>Eco-Park</b></font>
+<font color="blue"><b>DMAX theater</b></font>
 </h3>
 <hr size="3" color="red">
 <p align="justify">
 <font face="Tahoma" size="5">
-A very nice park near Ariyalur bus stand. It is located surrounding the Chetty Lake. 
-Very superb calm place in ariyalur. Best for walking. Nice playing place for kids.
-Well maintained with jogging track. Source of ground water.
-Good place play with children.  In Banyan Tree lot of parrot stay like house. 
-Good sound and Air. Lake view park looks awesome.
-Very nice place at Ariyalur.
-Simple and relax with play area.
+The finest theatre in dharmapuri which gives an amazing cinematic experience. The seats are good with a good amount of leg room. Nice ambience,good snacks and drinks and impeccably clean. When it comes to pricing, the highest priced theatre in town. But yeah! The experience justifies the cost.One&only Muliplex in DPI,Comfortable seats,Neat and clean. Executives are so humble Excellent picture and sound quality,Screen (1) & (2) is the biggest screen with 4k Dolby Atmos audio 🔊.Screen (3,4&5) are small screen with 2k 7.1 audio 🔊.Snacks is little bit costly but it's okay to spend in a good place. …
 </font>
 </p>
 </body>
 </html>
-
-rto.html
+```
+```html
+playground.html
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>RTO Office</title>
+<title>playground</title>
 </head>
 <body bgcolor="pink">
 <h1 align="center">
-<font color="red"><b>Ariyalur - Cement City</b></font>
+<font color="red"><b>DHARMAPURI</b></font>
 </h1>
 <h3 align="center">
-<font color="blue"><b>RTO Office</b></font>
+<font color="blue"><b>Playground</b></font>
 </h3>
 <hr size="3" color="red">
 <p align="justify">
 <font face="Arial" size="5">
 <b>
-RTO office or the Regional Transport Office is a government body specifically established to oversee all transport-related operations in the country. RTOs are located throughout the country in each state and union territory. RTOs are responsible for enforcing the rules as laid down by the Motor Vehicle Act of 1988.
-The department also maintains a database of all the vehicles operating in the country as well as issues licenses for drivers. Besides, the RTO office also collects road taxes, supervises pollution checks, and ensures the enforcement of all road transportation rules. If you own or drive a vehicle in India, you will need to visit the RTO to get your vehicle registered, obtain a driver’s license or renew your driver’s license, etc.
-RTOs are also responsible for improving road and vehicle safety, especially to avoid accidents and other road fatalities.
+Just a 100m walk from the main road.
+hosts for various sports events , walking and many initiatives.
+I was here on many occasions, my favorite is when we came here for divisional throwball event and we defeated krishnagiri team in final.
+I came here for the first time when I was studying 3rd std for divisional athletics.
+don't have much trees near by but the dias is huge. they literally have everything near by. the renovated basket ball courts and shuttle courts are it's pros.lot of eatery shops outside as well.do exercise everyday
+
 </b>
 </font>
 </p>
 </body>
 </html>
-
-ghs.html
+```
+```html
+SCHOOL.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -153,7 +137,7 @@ ghs.html
 </head>
 <body bgcolor="lime">
 <h1 align="center">
-<font color="red"><b>Ariyalur - Cement City</b></font>
+<font color="red"><b>DHARMAPURI</b></font>
 </h1>
 <h3 align="center">
 <font color="blue"><b>Government Higher Secondary School</b></font>
@@ -161,7 +145,7 @@ ghs.html
 <hr size="3" color="red">
 <p align="justify">
 <font face="Georgia" size="5">
-The main objectives of Ariyalur Government Higher Secondary School are 
+The main objectives of Dharmapuri Government Higher Secondary School are 
 <ul>
 <li>To impart proper and qualified training to teachers and give them an attractive salary and incentives so that they are not tempted to quit and look elsewhere for jobs.</li>
 <li>To provide financial aids and grants wisely and judiciously.</li>
@@ -172,32 +156,28 @@ The main objectives of Ariyalur Government Higher Secondary School are
 </p>
 </body>
 </html>
+```
+```html
+Marriage Hall.html
 
-
-
-vk.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Washerman’s Lake</title>
+<title>Marriage Hall</title>
 </head>
-<body bgcolor="orange">
+<body bgcolor="pink">
 <h1 align="center">
-<font color="red"><b>Ariyalur - Cement City</b></font>
+<font color="red"><b>DHARMAPURI</b></font>
 </h1>
 <h3 align="center">
-<font color="blue"><b>Washerman's Lake</b></font>
+<font color="blue"><b>Marriage Hall</b></font>
 </h3>
-<hr size="3" color="red">
+<hr size="3" color="green">
 <p align="justify">
-<font face="Georgia" size="5">
-The uses of Washerman's Lake in Ariyalur District are 
-<ol type="1">
-<li>Lake is used for rain water harvesting.</li>
-<li>It is used for drinking.</li>
-<li>Pisculture.</li>
-<li>For bathing, washing clothes etc.</li>
-</ol>
+<font face="Arial" size="5">
+<b>
+Its located at Kumarasamipettai, on the way to District Stadium. Its a decent marriage hall and can hold a capacity of 500 to 750, with the dining hall at the ground floor.A good place to celebrate wedding ceremonies and functions with lots of friends and families get-together.It is an ideal venue for weddings, engagements, house calls, etc. All kinds of facilities are included. The road is conveniently located.A wedding anniversary is the celebration of love, trust, partnership, tolerance, and tenacity.
+</b>
 </font>
 </p>
 </body>
@@ -205,23 +185,20 @@ The uses of Washerman's Lake in Ariyalur District are
 ```
 
 ## OUTPUT
-![WhatsApp Image 2023-06-11 at 23 48 49](https://github.com/vijayarajv1704/NearMe/assets/121303741/259158c3-a900-4658-a68a-155075a11455)
+![Screenshot 2023-10-23 212133](https://github.com/jaisurya143/NearMe/assets/121999338/ede6d205-786b-4ae8-b10d-36cffb4f9e90)
+![image](https://github.com/jaisurya143/NearMe/assets/121999338/a9309bfa-feec-4f62-b7fa-4a4de55f96b1)
+![image](https://github.com/jaisurya143/NearMe/assets/121999338/fddfa61c-394a-452a-bc52-a7ba97b74b81)
+![image](https://github.com/jaisurya143/NearMe/assets/121999338/41062312-b371-4e5d-b2cf-7a304c2daf05)
+![image](https://github.com/jaisurya143/NearMe/assets/121999338/c0832e58-138c-4507-89b3-650497747a9b)
+![image](https://github.com/jaisurya143/NearMe/assets/121999338/95b2b802-3a86-4c2a-a23a-b6f42a7241c9)
 
 
-![WhatsApp Image 2023-06-11 at 23 49 24](https://github.com/vijayarajv1704/NearMe/assets/121303741/868017cf-14e1-41e5-ac18-8d1660aae47a)
 
 
-![WhatsApp Image 2023-06-11 at 23 50 05](https://github.com/vijayarajv1704/NearMe/assets/121303741/b478b28f-6c92-48a0-a61a-abbb93002f40)
 
-![WhatsApp Image 2023-06-11 at 23 50 30](https://github.com/vijayarajv1704/NearMe/assets/121303741/52b37200-a164-484d-9a2c-a503c462d8f6)
 
-![WhatsApp Image 2023-06-11 at 23 50 57](https://github.com/vijayarajv1704/NearMe/assets/121303741/dcac04c5-87ba-4fa8-b872-dda53a3c70e3)
 
-![WhatsApp Image 2023-06-11 at 23 51 33](https://github.com/vijayarajv1704/NearMe/assets/121303741/8bd06bbd-43bd-43ee-8f40-2bbfc57587ad)
 
-## HTML VALIDATOR
-
-![WhatsApp Image 2023-06-11 at 23 53 34](https://github.com/vijayarajv1704/NearMe/assets/121303741/73fd8100-40f3-400f-856d-ab92663c818d)
 
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
