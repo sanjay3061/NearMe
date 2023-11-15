@@ -177,7 +177,8 @@ Its located at middle of cheyyar, on the way to bus stand. Its a decent marriage
 ```
 
 ## OUTPUT
-![Screenshot 2023-11-15 154819](https://github.com/sanjay3061/NearMe/assets/121215929/858ab148-8419-4014-a1dd-2b8c3ec4c474)
+![image](https://github.com/sanjay3061/NearMe/assets/121215929/8d34adc9-7df8-4628-bf72-78d685aaaf19)
+
 ![Screenshot (9)](https://github.com/sanjay3061/NearMe/assets/121215929/1dd12ee4-cb61-404b-961e-e56a559a719a)
 ![Screenshot (7)](https://github.com/sanjay3061/NearMe/assets/121215929/6550dbc8-1452-4f83-83f5-34c150b3926a)
 ![Screenshot (10)](https://github.com/sanjay3061/NearMe/assets/121215929/66d1e084-b631-43ff-9476-3da5b2ccc0c7)
